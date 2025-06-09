@@ -45,7 +45,7 @@ function Project() {
   });
   return (
     <div id="projects">
-      <h1 id="h1">2+ YEAR EXPERIENCED IN PROJECTS</h1>
+      <h1 id="h1">1+ YEAR EXPERIENCED IN PROJECTS</h1>
       <div className="slider">
         <Card title="VIRTUAL ASISTANT" image={VA} />
         <Card title="HTML,CSS,JS CODE EDITOR " image={FB} />
