@@ -1,0 +1,31 @@
+#projects {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.slider {
+
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 30px;
+    scrollbar-width: none;
+    padding-top: 20px;
+}
+
+#projects #h1 {
+    text-align: center;
+    margin-left: 20px;
+    background: linear-gradient(to right, rgba(223, 29, 203, 0.781), white);
+    background-clip: text;
+    color: transparent;
+}
